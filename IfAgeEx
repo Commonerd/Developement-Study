@@ -26,16 +26,20 @@ public class IfEx2 {
 		 * {System.out.println("중학생");} else if (age >=8) {System.out.println("초등학생");}
 		 * else {System.out.println("아동");}
 		 */
-		if(age>=) {
+		if(age >= 20) {
 			student="성인";
 		}else if(age>=17) {
 			student="고등학생";
 		}else if(age>=14) {
 			student="중학생";
 		}else if(age>=8) {
-			student="초등학생"
+			student="초등학생";
 		}else {
 			student="아동";
 		}
 		System.out.println(student+"입니다.");
 		s.close();
+
+	}
+
+}
