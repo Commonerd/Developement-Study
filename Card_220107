@@ -1,0 +1,12 @@
+package oopex.day0107;
+
+public class Card {
+	
+	static int width; //카드너비(공통)
+	static int height;//카드높이(공통)
+	String kind; 
+	int number;
+	
+	
+
+}
