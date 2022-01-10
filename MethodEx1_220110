@@ -1,0 +1,22 @@
+package methodex.day0110;
+
+public class MethodEx1 {
+
+	int max(int a, int b) {
+		int result = 0;
+		if (a > b) {
+			result = a;
+		} else {
+			result = b;
+		}
+		return result;
+	}
+
+	public static void main(String[] args) {
+		MethodEx1 m1 = new MethodEx1();
+		int max = m1.max(10, 5)
+	System.out.println("10과 5중 더 큰 숫자는"+max+"입니다.");
+		// 메서드 끝났을 때 값을 
+	}
+
+}
