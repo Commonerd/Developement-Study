@@ -1,0 +1,25 @@
+package inheritance.day0111;
+
+public class Person {
+
+		Name names;
+		int age;
+		Address addr;
+		
+		Person(){}
+
+		 Person(Name names, int age, Address addr) {
+			super();
+			this.names = names;
+			this.age = age;
+			this.addr = addr;
+		}
+
+		@Override
+		public String toString() {
+			return "Person [names=" + names + ", age=" + age + ", addr=" + addr + "]";
+		}
+		
+	
+		}
+
