@@ -1,0 +1,20 @@
+package modifier.day0112;
+import java.util.Scanner;
+
+public class GoodsTest {
+
+	public static void main(String[] args) {
+		Goods g = new Goods();
+		Scanner s = new Scanner(System.in);
+		System.out.println("상품명 >");
+		g.name = s.next();
+		System.out.println("가격 >");
+		g.price = s.nextInt();
+		System.out.println("수량 >");
+		g.quantity = s.nextInt();
+		System.out.println(g.toString());
+		System.out.println("총 구매가격 : "+g.getSum(0, 0)+"원");
+
+	}
+
+}
