@@ -1,0 +1,30 @@
+package modifier.day0112;
+
+
+public class Goods {
+	 String name;
+	 int price;
+	 int quantity;
+
+	Goods() {};
+
+	Goods(String name, int price, int quantity) {
+		this.name = name;
+		this.price = price;
+		this.quantity = quantity;
+	}
+
+	public int getSum(int price, int quantity) {
+		return this.price * this.quantity;
+	}
+
+	public void setSum(int price) {
+		this.price = price;
+	}
+
+	@Override // 오브젝트 클래스로부터 물려받은 toString()오버라이딩
+	public String toString() {// 인스턴스 메서드
+		return  this.name+","+ this.price +" 원,"+ this.quantity+ "개";
+	}
+
+}
